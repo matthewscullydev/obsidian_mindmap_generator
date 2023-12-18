@@ -16,13 +16,8 @@ mv mindmap_generator.py /home/User/Documents/yourvault/
 	- Set Center Force, Repel Force, and Link Force to 1.0
 	- Set Link Distance between 70-80
 
-#![Obsidian Force Filters](https://imgur.com/yHDrUqM.png) | ![Example Video](<blockquote class="imgur-embed-pub" lang="en" data-id="a/Tae4rbo" data-context="false" ><a href="//imgur.com/a/Tae4rbo"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
-
-<p align="center">
-  <img src="https://imgur.com/yHDrUqM.png" width="400" alt="Obsidian Force Filters">
-  <img src="https://imgur.com/a/Tae4rbo" width="400" alt="Example Video">
-</p>
-## What this program does
+![Obsidian Force Filters](https://imgur.com/yHDrUqM.png) | ![Example Video](https://imgur.com/W9uLAlh.gif)
+# What this program does
 ---
 
 This program creates markdown files in a tree hierarchy fashion. You first will enter the root node for the tree and the program will prompt you to enter first level dependencies afterwards.
