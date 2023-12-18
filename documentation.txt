@@ -1,0 +1,79 @@
+First we need to create all the nodes we will use with the tree
+
+
+Create example tree
+                       Persian Empire (Alexander the Great)
+                      /
+             Classical Antiquity -- Roman Empire
+            /         \
+           /           Han Dynasty
+          /
+         /          Ancient Egyptians
+        /          /
+History -- Bronze Age -- Sumarians
+        \          \
+         \          Indus River Valley Civilization
+          \
+           \       Dark Ages
+            \     /
+            Middle Ages -- Charlamegne Empire
+                  \
+                   Mongol Empire
+
+The Markdown translation for this is as follows:
+
+History.md
+---
+[[Classical Antiquity]]
+[[Bronze Age]]
+[[Middle Ages]]
+
+Classical Antiquity.md
+---
+[[Persian Empire]]
+[[Roman Empire]]
+[[Han Dynasty]]
+
+Bronze Age.md
+---
+[[Ancient Egyptians]]
+[[Sumarians]]
+[[Indus River Valley]]
+
+Middle Ages.md
+---
+[[Dark Ages]]
+[[Charlamegne Empire]]
+[[Mongol Empire]]
+
+
+Our program will ask for user input for the top level of the tree first
+
+It will generate the empty markdown files with the names of the user input
+
+next it will ask for the second level files per node in the first level
+
+It will generate the empty markdown files for these and add text to the first level of nodes referencing these
+
+User may exit program and nodes will still be instantiated
+
+Enter Root Node -- History
+    - Creates History.md (empty file for now)
+
+Enter First Level Dependancies -- Classical Antiquity Bronze Age Middle Ages
+    - appends input from this line to the History.md file with brackets around it
+
+ENTER FIRST LEVEL DEPENDANCY LOOP
+
+Enter Dependancies for Classical Antiquity -- Persian Empire Roman Empire Han Dynasty
+    - appends input from this line to the Classical Antiquity file
+    - appends Persian Empire Roman Empire Han Dynasty to list of second level dependancies
+
+Repeat for rest of nodes
+
+EXIT FIRST LEVEL DEPENDANCY LOOP
+
+Ask user if they would like to continue for the second level dependancy?
+
+If yes then for each node added to the list of the second level dependancies
+prompt the user whether they would like to add nodes for this topic or not? Y/N
