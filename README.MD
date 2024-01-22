@@ -6,7 +6,6 @@ This is a tool for generating mindmaps within obsidian. In order to use this you
 * Create a new Obsidian vault
 	* This is for the safety of your other .md files within the directory you will place this script.
 	* It becomes harder to visualize your mindmaps with larger vaults so small vault sizes will be the most optimal
-	* In the future support will be added for automating the creation of vaults with preconfigured plugins
 
 - Place mindmap_generator.py in your obsidian vault directory
 ```bash
