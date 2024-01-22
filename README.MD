@@ -14,7 +14,7 @@ mv mindmap_generator.py /home/User/Documents/yourvault/
 ```
 - Configure your Obsidian Graph View Force Filters so that the mindmap is discernible
 	- Set Center Force, Repel Force, and Link Force to 1.0
-	- Set Link Distance between 70-80
+	- Set Link Distance to 30
 
 ![Example Video](https://imgur.com/W9uLAlh.gif)
 # What this program does
