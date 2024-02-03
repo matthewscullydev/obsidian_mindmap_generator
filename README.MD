@@ -15,7 +15,7 @@ mv mindmap_generator.py /home/User/Documents/yourvault/
 	- Set Center Force, Repel Force, and Link Force to 1.0
 	- Set Link Distance to 30
 
-![Example Video](https://imgur.com/W9uLAlh.gif)
+![Example Video](https://github.com/matthewscullydev/obsidian_trainer/assets/26017402/ebb4d522-2f88-4a53-8afa-047ab2aa9a63)
 # What this program does
 ---
 
