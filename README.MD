@@ -16,6 +16,8 @@ mv mindmap_generator.py /home/User/Documents/yourvault/
 	- Set Link Distance to 30
 
 ![Example Video](https://github.com/matthewscullydev/obsidian_trainer/assets/26017402/ebb4d522-2f88-4a53-8afa-047ab2aa9a63)
+
+
 # What this program does
 ---
 
